@@ -15,10 +15,10 @@ h1{
     font-weight: bold;
 }   
 li{
-    font-size: 18px;
+    font-size: 20px;
     color: #e5e7eb;
 }
-button{
+.button-1{
     font-size: 20px;
     color: white;
     font-weight: bold;
@@ -39,7 +39,7 @@ ul{
 
 #hero{
     background-color: #1f2937;
-    height:90vh;
+    height:70vh;
     padding: 0 205px;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 210px;
+    margin-top: 110px;
     justify-content: space-between;
 }
 
@@ -77,4 +77,115 @@ img{
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px 0;
+}
+
+h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 305px ;
+
+}
+
+.cards-conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.img-card{
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    width: 170px;
+    height: 160px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-text{
+    font-size: 18px;
+    color: #1f2937;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.cita{
+    height: 60vh;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 300px;
+}
+.cita-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-family: "light italic";
+}   
+
+.cita .autor-cita{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 28px;
+}
+
+
+#register{ 
+    margin: 95px 210px;
+    height: 155px;
+    border-radius: 8px;
+    background-color:#3882f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#register .button-register{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 7px 38px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f9faf8;
+}
+
+h3{
+    color: #f9faf8;
+    font-size: 30px;
+}
+
+.register-text{
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+footer{
+    height: 110px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
