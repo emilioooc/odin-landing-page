@@ -1,16 +1,80 @@
-.header-main{
-    background-color: #1F2937;
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0; 
 }
 
-.testimonial-content{
-    background-color: #e5e5e7eb;
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
-
-.signup-conteiner{
+#hero .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}   
+li{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
     background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border:none;
+}
+ul{
+    text-decoration-line: none;
+    list-style: none;
 }
 
-.footer{
-    background-color: #1F2937;
+
+
+#hero{
+    background-color: #1f2937;
+    height:90vh;
+    padding: 0 205px;
+    display: flex;
+    flex-direction: column;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 8px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+
+#hero .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 210px;
+    justify-content: space-between;
+}
+
+img{
+    width: 520px;
+    height: 235px;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0;
+}
